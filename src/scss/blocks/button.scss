@@ -1,0 +1,20 @@
+.button {
+  display: inline-block;
+  width: 100%;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  color: $basic-white;
+  font-weight: 700;
+  font-family: $font-first;
+  text-align: center;
+  background-color: $accent-color;
+  border-radius: 10px;
+}
+
+@media (min-width: $tablet-width) {
+  .button {
+    width: auto;
+    padding: 20px 65px;
+    font-size: 18px;
+  }
+}

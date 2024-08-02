@@ -1,0 +1,46 @@
+// global
+@import "./global/reset.scss";
+@import "./global/variables.scss";
+@import "./global/mixins.scss";
+@import "./global/fonts.scss";
+@import "./global/visually-hidden.scss";
+// blocks
+// Главная
+@import "./blocks/page.scss";
+@import "./blocks/popup.scss";
+@import "./blocks/h1.scss";
+@import "./blocks/h2.scss";
+@import "./blocks/h3.scss";
+@import "./blocks/header.scss";
+@import "./blocks/button.scss";
+@import "./blocks/hero.scss";
+@import "./blocks/about-lessons.scss";
+@import "./blocks/why-study.scss";
+@import "./blocks/study-card.scss";
+@import "./blocks/benefits.scss";
+@import "./blocks/video.scss";
+@import "./blocks/guarantees.scss";
+@import "./blocks/main-form.scss";
+@import "./blocks/faq.scss";
+@import "./blocks/footer.scss";
+@import "./blocks/social.scss";
+// Направления
+@import "./blocks/directions/directions.scss";
+// О преподавателе
+@import "./blocks/about/about.scss";
+// Абонементы
+@import "./blocks/tickets.scss";
+@import "./blocks/card.scss";
+@import "./blocks/trial-lesson.scss";
+@import "./blocks/promo.scss";
+// Контакты
+@import "./blocks/contacts.scss";
+@import "./blocks/advantages.scss";
+@import "./blocks/address.scss";
+// 404
+@import "./blocks/404.scss";
+// thanks
+@import "./blocks/thanks.scss";
+
+
+

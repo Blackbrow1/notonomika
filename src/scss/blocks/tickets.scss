@@ -1,0 +1,102 @@
+.tickets {
+  padding-top: 30px;
+}
+
+.tickets__wrap {
+  @include wrapper-mobile();
+}
+
+.tickets__price:first-of-type {
+  margin-bottom: 50px;
+}
+
+.tickets__title {
+  color: $accent-color;
+  margin-bottom: 40px;
+}
+
+.tickets__price-title {
+  margin-bottom: 10px;
+
+  span {
+    color: $accent-color;
+  }
+}
+
+.tickets__price-description {
+  margin-bottom: 20px;
+}
+
+.tickets__price-item {
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .tickets {
+    padding-top: 85px;
+  }
+
+  .tickets__wrap {
+    @include wrapper-tablet();
+  }
+
+  .tickets__price:first-of-type {
+    margin-bottom: 80px;
+  }
+
+  .tickets__title {
+    margin-bottom: 50px;
+  }
+
+  .tickets__price-title {
+    margin-bottom: 20px;
+  }
+
+  .tickets__price-description {
+    width: 585px;
+    margin-bottom: 40px;
+    font-size: 20px;
+  }
+
+  .tickets__price-item {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .tickets {
+    padding-top: 75px;
+  }
+
+  .tickets__wrap {
+    @include wrapper-desktop();
+  }
+
+  .tickets__price:first-of-type {
+    margin-bottom: 100px;
+  }
+
+  .tickets__title {
+    margin-bottom: 90px;
+    font-size: 128px;
+  }
+
+  .tickets__price-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .tickets__price-item {
+    flex-grow: 1;
+
+    &:not(:last-child) {
+      margin-bottom: 0;
+    }
+  }
+}
+

@@ -1,0 +1,175 @@
+.promo {
+  padding-bottom: 50px;
+}
+
+.promo__wrap {
+  @include wrapper-mobile();
+}
+
+.promo__lesson {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  width: min(100%, 728px);
+  height: clamp(206px, 50vw, 400px);
+  background: image-set(
+    url("../img/promo/promo-mobile@1x.webp") type("image/webp") 1x,
+    url("../img/promo/promo-mobile@2x.webp") type("image/webp") 2x,
+    url("../img/promo/promo-mobile@1x.jpg") type("image/jpg") 1x,
+    url("../img/promo/promo-mobile@2x.jpg") type("image/jpg") 2x
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: $font-first;
+  font-size: 24px;
+  font-weight: 700;
+  color: $basic-white;
+  border-radius: 20px;
+
+  span {
+    width: 197px;
+  }
+}
+
+.promo__discount {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  width: min(100%, 728px);
+  min-height: 206px;
+  border: 1px solid $card-border-color;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.promo__discount-description {
+  margin-bottom: 10px;
+}
+
+.promo__discount-price {
+  font-size: clamp(32px, 5vw, 46px);
+  color: $accent-color;
+  font-family: $font-first;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+@media (min-width: $tablet-width) {
+  .promo {
+    padding-bottom: 80px;
+  }
+
+  .promo__wrap {
+    @include wrapper-tablet();
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content min-content;
+    column-gap: 20px;
+  }
+
+  .promo__lesson {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    padding-right: 0;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    width: min(100%, 1200px);
+    height: clamp(395px, 50vw, 500px);
+    background: image-set(
+      url("../img/promo/promo-tablet@1x.webp") type("image/webp") 1x,
+      url("../img/promo/promo-tablet@2x.webp") type("image/webp") 2x,
+      url("../img/promo/promo-tablet@1x.jpg") type("image/jpg") 1x,
+      url("../img/promo/promo-tablet@2x.jpg") type("image/jpg") 2x
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 40px;
+
+    span {
+      grid-column: 2 / 3;
+      width: 317px;
+    }
+  }
+
+  .promo__discount {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 30px;
+    padding-bottom: 0;
+    min-height: auto;
+    border: none;
+    border-top: 1px solid $card-border-color;
+    border-radius: 0;
+    font-size: 20px;
+  }
+
+  .promo__discount-description {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .promo__discount-price {
+    font-size: 58px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .promo {
+    padding-bottom: 180px;
+  }
+
+  .promo__wrap {
+    @include wrapper-desktop();
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .promo__lesson {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 30px;
+    margin-bottom: 40px;
+    width:585px;
+    height: auto;
+    min-height: 395px;
+    background: image-set(
+      url("../img/promo/promo-desktop@1x.webp") type("image/webp") 1x,
+      url("../img/promo/promo-desktop@2x.webp") type("image/webp") 2x,
+      url("../img/promo/promo-desktop@1x.jpg") type("image/jpg") 1x,
+      url("../img/promo/promo-desktop@2x.jpg") type("image/jpg") 2x
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 48px;
+
+    span {
+      width: 384px;
+    }
+  }
+
+  .promo__discount {
+    padding-top: 225px;
+    min-height: 396px;
+    font-size: 24px;
+    width: 380px;
+  }
+
+  .promo__discount-price {
+    font-size: 64px;
+  }
+}
+

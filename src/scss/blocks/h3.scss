@@ -1,0 +1,11 @@
+.h3 {
+  font-weight: 700;
+  font-size: 18px;
+  font-family: $font-first;
+}
+
+@media (min-width: $tablet-width) {
+  .h3 {
+    font-size: 24px;
+  }
+}

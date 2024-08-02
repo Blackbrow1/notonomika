@@ -1,0 +1,79 @@
+.page-404__wrap {
+  @include wrapper-mobile();
+
+  padding-top: 83px;
+  padding-bottom: 40px;
+}
+
+.page-404__title {
+  position: relative;
+  font-size: 28px;
+  margin-bottom: 96px;
+
+  &::before {
+    content: "404";
+    position: absolute;
+    top: -20px;
+    left: 0;
+    font-family: $font-first;
+    font-size: 158px;
+    font-weight: 700;
+    color: #ebf1f9;
+    z-index: -1;
+  }
+}
+
+.page-404__text {
+  font-size: 16px;
+
+  a {
+    color: $accent-color;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .page-404__wrap {
+    @include wrapper-tablet();
+
+    padding-top: 190px;
+    padding-bottom: 140px;
+  }
+
+  .page-404__title {
+    margin-bottom: 140px;
+
+    &::before {
+      top: -50px;
+      font-size: 386px;
+    }
+  }
+
+  .page-404__text {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-404__wrap {
+    @include wrapper-desktop();
+
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
+
+  .page-404__title {
+    font-size: 96px;
+
+    &::before {
+      top: -73px;
+      left: auto;
+      right: 0;
+      font-size: 528px;
+    }
+  }
+
+  .page-404__text {
+    font-size: 20px;
+  }
+}
+

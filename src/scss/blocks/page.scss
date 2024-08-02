@@ -1,0 +1,27 @@
+.page {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.page__body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: $basic-text-color;
+  font-weight: 400;
+  font-size: 13px;
+  font-family: $font-second;
+  line-height: 1.35;
+  background-color: $basic-white;
+}
+
+@media (min-width: $tablet-width) {
+  .page__body {
+    font-size: 16px;
+  }
+}

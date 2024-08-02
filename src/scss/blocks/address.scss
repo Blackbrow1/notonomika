@@ -1,0 +1,179 @@
+.address {
+  padding-bottom: 50px;
+}
+
+.address__wrap {
+  @include wrapper-mobile();
+}
+
+.address__city {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.address__block {
+  margin-bottom: 30px;
+}
+
+.address__street,
+.address__phone,
+.address__time {
+  font-size: 16px;
+}
+
+.address__phone {
+  display: block;
+  color: $basic-text-color;
+}
+
+.address__city,
+.address__street,
+.address__phone {
+  margin-bottom: 10px;
+}
+
+.address__social.social {
+  margin-bottom: 30px;
+  width: 185px;
+}
+
+.address__social {
+  .social__item {
+    a {
+      &:hover {
+        &::before {
+          opacity: 0.8;
+        }
+      }
+
+      &::before {
+        background-color: $accent-color;
+        opacity: 1;
+      }
+    }
+
+    &--vk {
+      width: 45px;
+      height: 26px;
+
+      a {
+        &::before {
+          width: 45px;
+          height: 26px;
+        }
+      }
+    }
+
+    &--telegram {
+      width: 38px;
+      height: 32px;
+
+      a {
+        &::before {
+          width: 38px;
+          height: 32px;
+        }
+      }
+    }
+
+    &--whatsapp {
+      width: 36px;
+      height: 36px;
+
+      a {
+        &::before {
+          width: 36px;
+          height: 36px;
+        }
+      }
+    }
+  }
+}
+
+.address__map {
+  height: 300px;
+
+  iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 20px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .address {
+    padding-bottom: 80px;
+  }
+
+  .address__wrap {
+    @include wrapper-tablet();
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content min-content;
+    justify-content: space-between;
+    column-gap: 20px;
+  }
+
+  .address__city {
+    font-size: 32px;
+  }
+
+  .address__block {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin-bottom: 0;
+  }
+
+  .address__street,
+  .address__phone,
+  .address__time {
+    font-size: 20px;
+  }
+
+  .address__city,
+  .address__street,
+  .address__phone {
+    margin-bottom: 20px;
+  }
+
+  .address__social {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    align-self: flex-end;
+  }
+
+  .address__social.social {
+    margin-bottom: 0;
+  }
+
+  .address__map {
+    grid-column: 2 / 3;
+    grid-row: 1 / -1;
+    justify-self: end;
+    width: 100%;
+    height: 354px;
+
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .address {
+    padding-bottom: 180px;
+  }
+
+  .address__wrap {
+    @include wrapper-desktop();
+    column-gap: 30px;
+  }
+
+  .address__map {
+    width: 790px;
+    height: 506px;
+  }
+}
+

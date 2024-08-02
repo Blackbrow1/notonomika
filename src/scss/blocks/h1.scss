@@ -1,0 +1,12 @@
+.h1 {
+  font-weight: 700;
+  font-size: 36px;
+  font-family: $font-first;
+  line-height: 1;
+}
+
+@media (min-width: $tablet-width) {
+  .h1 {
+    font-size: 64px;
+  }
+}

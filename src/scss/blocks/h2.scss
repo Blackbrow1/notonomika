@@ -1,0 +1,12 @@
+.h2 {
+  font-weight: 700;
+  font-size: 28px;
+  font-family: $font-first;
+  line-height: 1;
+}
+
+@media (min-width: $tablet-width) {
+  .h2 {
+    font-size: 48px;
+  }
+}

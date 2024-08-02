@@ -1,0 +1,258 @@
+.trial-lesson {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.trial-lesson__wrap {
+  @include wrapper-mobile();
+}
+
+.trial-lesson__title {
+  margin-bottom: 118px;
+
+  span {
+    color: $accent-color;
+  }
+}
+
+.trial-lesson__item {
+  position: relative;
+  padding-left: 91px;
+
+  &:not(:last-child) {
+    margin-bottom: 137px;
+  }
+
+  &--1,
+  &--2,
+  &--3,
+  &--4 {
+    &::before {
+      position: absolute;
+      top: -69px;
+      font-size: 128px;
+      line-height: 1;
+      font-family: $font-first;
+      font-weight: 700;
+      color: $accent-color;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 26px;
+      background-repeat: no-repeat;
+      background-color: $round-color;
+      z-index: -1;
+    }
+  }
+
+  &--1 {
+    &::before {
+      content: "1";
+      left: 10px;
+    }
+
+    &::after {
+      top: -85px;
+      width: 141px;
+      height: 155px;
+      mask-image: url("../img/icons/stack.svg#trial-lesson_trial-lesson-notes-1-mobile");
+    }
+  }
+
+  &--2 {
+    &::before {
+      content: "2";
+      left: 0;
+    }
+
+    &::after {
+      top: -83px;
+      width: 151px;
+      height: 153px;
+      mask-image: url("../img/icons/stack.svg#trial-lesson_trial-lesson-notes-2-mobile");
+    }
+  }
+
+  &--3 {
+    &::before {
+      content: "3";
+      left: 0;
+    }
+
+    &::after {
+      top: -87px;
+      width: 154px;
+      height: 157px;
+      mask-image: url("../img/icons/stack.svg#trial-lesson_trial-lesson-notes-3-mobile");
+    }
+  }
+
+  &--4 {
+    &::before {
+      content: "4";
+      left: 0;
+    }
+
+    &::after {
+      top: -88px;
+      width: 141px;
+      height: 159px;
+      mask-image: url("../img/icons/stack.svg#trial-lesson_trial-lesson-notes-4-mobile");
+    }
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .trial-lesson {
+    padding-top: 80px;
+    padding-bottom: 147px;
+  }
+
+  .trial-lesson__wrap {
+    @include wrapper-tablet();
+  }
+
+  .trial-lesson__title {
+    margin-bottom: 154px;
+  }
+
+  .trial-lesson__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content;
+    row-gap: 224px;
+    column-gap: 20px;
+  }
+
+  .trial-lesson__item {
+    &:not(:last-child) {
+      margin-bottom: 0;
+    }
+
+    &--1,
+    &--2,
+    &--3,
+    &--4 {
+      &::before {
+        top: -69px;
+        font-size: 180px;
+      }
+
+      &::after {
+        left: 6px;
+      }
+    }
+
+    &--1 {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+      padding-left: 81px;
+
+      &::before {
+        left: 0;
+      }
+
+      &::after {
+        top: -114px;
+        width: 204px;
+        height: 214px;
+        mask-image: url("../img/icons/stack.svg#trial-lesson_trial-lesson-notes-1-tablet");
+      }
+    }
+
+    &--2 {
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+      padding-left: 116px;
+
+      &::after {
+        top: -123px;
+        left: 41px;
+        width: 213px;
+        height: 223px;
+        mask-image: url("../img/icons/stack.svg#trial-lesson_trial-lesson-notes-2-tablet");
+      }
+    }
+
+    &--3 {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+      padding-left: 118px;
+
+      &::after {
+        top: -116px;
+        left: 43px;
+        width: 238px;
+        height: 216px;
+        mask-image: url("../img/icons/stack.svg#trial-lesson_trial-lesson-notes-3-tablet");
+      }
+    }
+
+    &--4 {
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+      padding-left: 128px;
+
+      &::after {
+        top: -119px;
+        left: 53px;
+        width: 212px;
+        height: 219px;
+        mask-image: url("../img/icons/stack.svg#trial-lesson_trial-lesson-notes-4-tablet");
+      }
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .trial-lesson {
+    padding-top: 180px;
+    padding-bottom: 237px;
+  }
+
+  .trial-lesson__wrap {
+    @include wrapper-desktop();
+  }
+
+  .trial-lesson__title {
+    margin-bottom: 140px;
+  }
+
+  .trial-lesson__list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    column-gap: 0;
+    row-gap: 134px;
+  }
+
+  .trial-lesson__item {
+    font-size: 20px;
+
+    &--1 {
+      width: 400px;
+      margin-right: 131px;
+      order: 0;
+    }
+
+    &--2 {
+      width: 393px;
+      order: 2;
+      margin-left: 264px;
+      margin-right: 115px;
+    }
+
+    &--3 {
+      width: 389px;
+      order: 1;
+    }
+
+    &--4 {
+      width: 428px;
+      order: 3;
+    }
+  }
+}
+

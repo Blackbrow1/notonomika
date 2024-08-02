@@ -1,0 +1,118 @@
+.about-lessons {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about-lessons__wrap {
+  @include wrapper-mobile();
+}
+
+.about-lessons__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.about-lessons__list {
+  margin-bottom: 30px;
+}
+
+.about-lessons__item {
+  position: relative;
+  min-height: 50px;
+  padding-left: 65px;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    content: "";
+  }
+
+  &--notes {
+    &::before {
+      background-image: url("../img/icons/stack.svg#notes");
+    }
+  }
+
+  &--heart {
+    &::before {
+      background-image: url("../img/icons/stack.svg#heart");
+    }
+  }
+
+  &--book {
+    &::before {
+      background-image: url("../img/icons/stack.svg#book");
+    }
+  }
+
+  &--microphone {
+    &::before {
+      background-image: url("../img/icons/stack.svg#microphone");
+    }
+  }
+}
+
+.about-lessons__img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .about-lessons {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .about-lessons__wrap {
+    @include wrapper-tablet();
+  }
+
+  .about-lessons__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .about-lessons__list {
+    margin-bottom: 40px;
+  }
+
+  .about-lessons__item {
+    font-size: 18px;
+  }
+
+  .about-lessons__img {
+    width: 100%;
+    max-width: 900px;
+    height: 503px;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .about-lessons {
+    padding-top: 140px;
+    padding-bottom: 180px;
+  }
+
+  .about-lessons__wrap {
+    @include wrapper-desktop();
+
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  .about-lessons__list {
+    margin-bottom: 0;
+  }
+
+  .about-lessons__img {
+    width: 585px;
+    max-width: auto;
+    height: 404px;
+  }
+}
+

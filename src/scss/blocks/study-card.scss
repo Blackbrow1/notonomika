@@ -1,0 +1,208 @@
+.study-card {
+  position: relative;
+  padding: 202px 20px 30px;
+  background-color: $study-card-color;
+  border-radius: 20px;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  &::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 266px;
+    height: 288px;
+    border-top-right-radius: 20px;
+    content: "";
+  }
+
+  &::after {
+    position: absolute;
+    top: 33px;
+    left: 30px;
+    font-size: 128px;
+    font-family: $font-first;
+    opacity: 0.2;
+  }
+}
+
+.study-card--1 {
+  &::before {
+    background: image-set(
+      url("../img/why-study/why-study-1@1x.webp") type("image/webp") 1x,
+      url("../img/why-study/why-study-1@2x.webp") type("image/webp") 2x,
+      url("../img/why-study/why-study-1@1x.png") type("image/png") 1x,
+      url("../img/why-study/why-study-1@2x.png") type("image/png") 2x
+    );
+  }
+
+  &::after {
+    content: "1";
+  }
+}
+
+.study-card--2 {
+  &::before {
+    background: image-set(
+      url("../img/why-study/why-study-2@1x.webp") type("image/webp") 1x,
+      url("../img/why-study/why-study-2@2x.webp") type("image/webp") 2x,
+      url("../img/why-study/why-study-2@1x.png") type("image/png") 1x,
+      url("../img/why-study/why-study-2@2x.png") type("image/png") 2x
+    );
+  }
+
+  &::after {
+    content: "2";
+  }
+}
+
+.study-card--3 {
+  &::before {
+    background: image-set(
+      url("../img/why-study/why-study-3@1x.webp") type("image/webp") 1x,
+      url("../img/why-study/why-study-3@2x.webp") type("image/webp") 2x,
+      url("../img/why-study/why-study-3@1x.png") type("image/png") 1x,
+      url("../img/why-study/why-study-3@2x.png") type("image/png") 2x
+    );
+  }
+
+  &::after {
+    content: "3";
+  }
+}
+
+.study-card--4 {
+  &::before {
+    background: image-set(
+      url("../img/why-study/why-study-4@1x.webp") type("image/webp") 1x,
+      url("../img/why-study/why-study-4@2x.webp") type("image/webp") 2x,
+      url("../img/why-study/why-study-4@1x.png") type("image/png") 1x,
+      url("../img/why-study/why-study-4@2x.png") type("image/png") 2x
+    );
+  }
+
+  &::after {
+    content: "4";
+  }
+}
+
+.study-card--5 {
+  &::before {
+    background: image-set(
+      url("../img/why-study/why-study-5@1x.webp") type("image/webp") 1x,
+      url("../img/why-study/why-study-5@2x.webp") type("image/webp") 2x,
+      url("../img/why-study/why-study-5@1x.png") type("image/png") 1x,
+      url("../img/why-study/why-study-5@2x.png") type("image/png") 2x
+    );
+  }
+
+  &::after {
+    content: "5";
+  }
+}
+
+.study-card--6 {
+  &::before {
+    background: image-set(
+      url("../img/why-study/why-study-6@1x.webp") type("image/webp") 1x,
+      url("../img/why-study/why-study-6@2x.webp") type("image/webp") 2x,
+      url("../img/why-study/why-study-6@1x.png") type("image/png") 1x,
+      url("../img/why-study/why-study-6@2x.png") type("image/png") 2x
+    );
+  }
+
+  &::after {
+    content: "6";
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .study-card {
+    padding: 199px 26px 30px 30px;
+
+    &:not(:last-child) {
+      margin-bottom: 0;
+    }
+  }
+
+  .study-card--1 {
+    order: -1;
+  }
+
+  .study-card--2 {
+    order: 2;
+  }
+
+  .study-card--3 {
+    order: 0;
+    padding-bottom: 100px;
+  }
+
+  .study-card--4 {
+    order: 1;
+    padding-bottom: 93px;
+
+    &::after {
+      content: "5";
+    }
+  }
+
+  .study-card--5 {
+    order: 3;
+    padding-bottom: 55px;
+
+    &::after {
+      content: "4";
+    }
+  }
+
+  .study-card--6 {
+    order: 4;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .study-card--1 {
+    order: -1;
+    height: 397px;
+  }
+
+  .study-card--2 {
+    order: 1;
+    height: 479px;
+  }
+
+  .study-card--3 {
+    order: 3;
+    height: 397px;
+    padding-bottom: 100px;
+  }
+
+  .study-card--4 {
+    order: 0;
+    height: 438px;
+    padding-bottom: 93px;
+
+    &::after {
+      content: "4";
+    }
+  }
+
+  .study-card--5 {
+    order: 2;
+    height: 356px;
+    padding-bottom: 55px;
+
+    &::after {
+      content: "5";
+    }
+  }
+
+  .study-card--6 {
+    order: 4;
+    height: 438px;
+  }
+}
+
