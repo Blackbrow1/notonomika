@@ -3,9 +3,9 @@
       <div>
         <a class="footer__logo-link" href="<?php echo HOST; ?>">
           <picture>
-            <source width="120" height="30" media="(min-width: 768px)" srcset="img/icons/logo-footer-desktop.svg"
+            <source width="136" height="30" media="(min-width: 768px)" srcset="img/icons/logo-footer-desktop.svg"
               type="image/svg+xml">
-            <img src="img/icons/logo-footer-mobile.svg" width="95" height="25" alt="Логотип Нотологии">
+            <img src="img/icons/logo-footer-mobile.svg" width="120" height="25" alt="Логотип Нотологии">
           </picture>
         </a>
       </div>
@@ -51,15 +51,15 @@
         <a href="policy.pdf" class="footer__policy-link" download>Политика конфиденциальности</a>
       </div>
 
-      <p class="footer__site-dev">Сайт разработан в <a href="https://vk.com/blackbrow" target="_blank">Prasaim</a></p>
+      <p class="footer__site-dev"><span>Сайт разработан в</span> <a href="https://vk.com/blackbrow"
+          target="_blank">Prasaim</a></p>
     </div>
   </footer>
 
   <div class="popup popup--none">
     <div class="popup__video">
-      <iframe src="" title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      <iframe src="" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen
+        scrolling="no" allow="encrypted-media;"></iframe>
     </div>
 
     <button class="popup__button"><span class="visually-hidden">Закрыть видео</span></button>
@@ -68,5 +68,6 @@
   <script src="./js/swiper-bundle.min.js"></script>
   <script src="./js/script.js"></script>
   </body>
+
 
   </html>

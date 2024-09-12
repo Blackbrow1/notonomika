@@ -1,7 +1,7 @@
 'use strict';
 
 const videoImg = document.querySelectorAll('.video__img');
-const videoItem = document.querySelector('.video__item');
+const videoImgPlay = document.querySelectorAll('.video__img-play');
 const popup = document.querySelector('.popup');
 const popupVideo = document.querySelector('.popup__video');
 const popupVideoIframe = document.querySelector('.popup__video iframe');
@@ -15,15 +15,15 @@ const navItems = document.querySelectorAll('.header__item');
 const anchors = document.querySelectorAll('a.scroll-to');
 
 const studentVideos = [
-  'https://www.youtube.com/embed/UsLpqTXd5vs?si=YQBf1Dqlq2AthHXi',
-  'https://www.youtube.com/embed/nWef081wRrI?si=f38ZqsaQcclLPcga',
-  'https://www.youtube.com/embed/JprtUfB1pKM?si=ln-u9qTwMykIoE7b'
+  'https://rutube.ru/play/embed/519d21a2543c05e99773f1b9031b2e86',
+  'https://rutube.ru/play/embed/10f748bc13ab55615396684a881f3c9a',
+  'https://rutube.ru/play/embed/1396a2521b89fa7bede3e797f4efbf5a'
 ];
 
 const teacherVideos = [
-  'https://www.youtube.com/embed/mbYqZlqvjBU?si=n_AaBMGBhzEVgnLF',
-  'https://www.youtube.com/embed/NWnBxQjssvQ?si=B8MFCOCBvKUTz-0-',
-  'https://www.youtube.com/embed/JprtUfB1pKM?si=ln-u9qTwMykIoE7b'
+  'https://rutube.ru/play/embed/e5d56b1fd103a91857e9d20ce8c20c14',
+  'https://rutube.ru/play/embed/edf0fee3710adb21f908bf424654a94b',
+  'https://rutube.ru/play/embed/e7b48d540d8b066d18bb33e1e851c941'
 ];
 
 videoImg.forEach((item, index) => {
@@ -40,7 +40,21 @@ videoImg.forEach((item, index) => {
   });
 });
 
-if (window.location.pathname == '/about.html') {
+videoImgPlay.forEach((item, index) => {
+  item.addEventListener('click', (evt) => {
+    evt.preventDefault();
+    studentVideos.forEach((video, i) => {
+      if (index === i) {
+        popupVideoIframe.src = video;
+      }
+    });
+
+    popup.classList.add('popup--show');
+    popup.classList.remove('popup--none');
+  });
+});
+
+if (window.location.pathname == '/about' || window.location.pathname == '/about.html') {
   videoImg.forEach((item, index) => {
     item.addEventListener('click', (evt) => {
       evt.preventDefault();
@@ -54,6 +68,21 @@ if (window.location.pathname == '/about.html') {
       popup.classList.remove('popup--none');
     });
   });
+
+  videoImgPlay.forEach((item, index) => {
+    item.addEventListener('click', (evt) => {
+      evt.preventDefault();
+      teacherVideos.forEach((video, i) => {
+        if (index === i) {
+          popupVideoIframe.src = video;
+        }
+      });
+
+      popup.classList.add('popup--show');
+      popup.classList.remove('popup--none');
+    });
+  });
+
 }
 
 window.addEventListener('keydown', function (evt) {

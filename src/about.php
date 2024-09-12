@@ -56,14 +56,17 @@ include ROOT . 'parts/header.php';
         <ul class="swiper-wrapper video__list">
           <li class="swiper-slide video__item">
             <img class="video__img" src="./img/faq/faq-img-tablet@1x.jpg" alt="">
+            <img class="video__img-play" src="./img/icons/play-mobile.svg" alt="">
           </li>
 
           <li class="swiper-slide video__item">
             <img class="video__img" src="./img/about-lessons/about-lessons-tablet@1x.jpg" alt="">
+            <img class="video__img-play" src="./img/icons/play-mobile.svg" alt="">
           </li>
 
           <li class="swiper-slide video__item">
             <img class="video__img" src="./img/faq/faq-img-tablet@1x.jpg" alt="">
+            <img class="video__img-play" src="./img/icons/play-mobile.svg" alt="">
           </li>
         </ul>
       </div>

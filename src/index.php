@@ -201,15 +201,18 @@ include ROOT . 'parts/header.php';
       <div class="swiper video__swiper">
         <ul class="swiper-wrapper video__list">
           <li class="swiper-slide video__item">
-            <img class="video__img" src="./img/faq/faq-img-tablet@1x.jpg" alt="">
+            <img class="video__img" src="./img/faq/faq-img-tablet@1x.jpg" alt="Видео ученика">
+            <img class="video__img-play" src="./img/icons/play-mobile.svg" alt="Иконка запуска видео">
           </li>
 
           <li class="swiper-slide video__item">
-            <img class="video__img" src="./img/about-lessons/about-lessons-tablet@1x.jpg" alt="">
+            <img class="video__img" src="./img/about-lessons/about-lessons-tablet@1x.jpg" alt="Видео ученика">
+            <img class="video__img-play" src="./img/icons/play-mobile.svg" alt="Иконка запуска видео">
           </li>
 
           <li class="swiper-slide video__item">
-            <img class="video__img" src="./img/faq/faq-img-tablet@1x.jpg" alt="">
+            <img class="video__img" src="./img/faq/faq-img-tablet@1x.jpg" alt="Видео ученика">
+            <img class="video__img-play" src="./img/icons/play-mobile.svg" alt="Иконка запуска видео">
           </li>
         </ul>
       </div>

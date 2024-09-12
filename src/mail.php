@@ -1,7 +1,7 @@
 <?php
 
-$mail_to = 'alesandro83@mail.ru';
-$email_from = 'alesandro83@mail.ru';
+$mail_to = 'info@notonomika.ru';
+$email_from = 'info@notonomika.ru';
 $name_from = 'Онлайн менеджер';
 $subject = 'Заявка с сайта';
 

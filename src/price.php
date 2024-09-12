@@ -26,7 +26,7 @@ include ROOT . 'parts/header.php';
               <span class="card__correction">Занятия 1 раз в неделю</span>
             </div>
 
-            <p class="card__price">6 800</p>
+            <p class="card__price">7 400</p>
 
             <a href="#main-form" class="card__button button scroll-to">Записаться</a>
           </li>
@@ -37,7 +37,7 @@ include ROOT . 'parts/header.php';
               <span class="card__correction">Занятия 2 раза в неделю</span>
             </div>
 
-            <p class="card__price">11 800</p>
+            <p class="card__price">12 800</p>
 
             <a href="#main-form" class="card__button button scroll-to">Записаться</a>
           </li>
@@ -48,7 +48,7 @@ include ROOT . 'parts/header.php';
               <span class="card__correction">Занятия 3 раза в неделю</span>
             </div>
 
-            <p class="card__price">16 200</p>
+            <p class="card__price">18 200</p>
 
             <a href="#main-form" class="card__button button scroll-to">Записаться</a>
           </li>
@@ -69,7 +69,7 @@ include ROOT . 'parts/header.php';
 
             <p class="card__description">1 раз в неделю специальность + 1 раз в неделю сольфеджио или теория музыки</p>
 
-            <p class="card__price">10 600</p>
+            <p class="card__price">12 400</p>
 
             <a href="#main-form" class="card__button button scroll-to">Записаться</a>
           </li>
@@ -83,7 +83,7 @@ include ROOT . 'parts/header.php';
             <p class="card__description">2 раза в неделю специальность + 2 раза в неделю сольфеджио или теория музыки
             </p>
 
-            <p class="card__price">19 800</p>
+            <p class="card__price">22 200</p>
 
             <a href="#main-form" class="card__button button scroll-to">Записаться</a>
           </li>
@@ -97,7 +97,7 @@ include ROOT . 'parts/header.php';
             <p class="card__description">3 раза в неделю специальность + 3 раза в неделю сольфеджио или теория музыки
             </p>
 
-            <p class="card__price">28 800</p>
+            <p class="card__price">32 400</p>
 
             <a href="#main-form" class="card__button button scroll-to">Записаться</a>
           </li>

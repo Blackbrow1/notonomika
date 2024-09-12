@@ -10,7 +10,7 @@
   <meta property="og:title" content="<?php echo $title; ?>">
   <meta property="og:description" content="<?php echo $description; ?>">
   <meta property="og:url" content="<?php echo $url; ?>">
-  <meta property="og:image" content="https://notologia.ru/img/preview.jpg">
+  <meta property="og:image" content="https://notonomika.ru/img/preview.jpg">
   <meta property="og:site_name" content="Музыкальная школа Нотология">
   <meta property="og:locale" content="ru_RU">
   <title><?php echo $title; ?></title>
@@ -31,9 +31,9 @@
     "@context": "http://www.schema.org",
     "@type": "LocalBusiness",
     "name": "Музыкальная школа Нотология",
-    "url": "https://notologia.ru",
-    "logo": "https://notologia.ru/img/icons/logo-desktop.svg",
-    "image": "https://notologia.ru/img/preview.jpg",
+    "url": "https://notonomika.ru",
+    "logo": "https://notonomika.ru/img/icons/logo-desktop.svg",
+    "image": "https://notonomika.ru/img/preview.jpg",
     "description": "Научим играть профессионально или для души. Подготовим к выступлению или к поступлению в музыкальныю школу. Обучение за 3 месяца. Пробный урок бесплатный!",
     "address": {
       "@type": "PostalAddress",
@@ -55,9 +55,9 @@
     <div class="header__wrap">
       <a href="<?php echo HOST; ?>">
         <picture>
-          <source width="120" height="30" media="(min-width: 768px)" srcset="img/icons/logo-desktop.svg"
+          <source width="136" height="30" media="(min-width: 768px)" srcset="img/icons/logo-desktop.svg"
             type="image/svg+xml">
-          <img class="header__logo" src="img/icons/logo-mobile.svg" width="95" height="25" alt="Логотип Нотологии">
+          <img class="header__logo" src="img/icons/logo-mobile.svg" width="107" height="25" alt="Логотип Нотологии">
         </picture>
       </a>
 
