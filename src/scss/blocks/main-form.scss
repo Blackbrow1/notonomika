@@ -61,6 +61,7 @@
   margin-bottom: 15px;
   z-index: 2;
   background-color: $main-form-button;
+  font-size: 14px;
   transition: all 0.6s ease;
 
   &:hover {
@@ -113,6 +114,10 @@
   font-family: $font-first;
   background-image: url("../img/icons/form-label-mobile.svg");
   background-repeat: no-repeat;
+
+  p {
+    font-size: 13px;
+  }
 }
 
 .main-form__policy-link {
