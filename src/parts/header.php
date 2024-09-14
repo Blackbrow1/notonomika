@@ -13,6 +13,7 @@
   <meta property="og:image" content="https://notonomika.ru/img/preview.jpg">
   <meta property="og:site_name" content="Музыкальная школа Нотономика">
   <meta property="og:locale" content="ru_RU">
+  <meta name="yandex-verification" content="5bd7c3704d0b0069" />
   <title><?php echo $title; ?></title>
   <link rel="icon" href="favicon.ico">
   <link rel="icon" href="favicons/32.svg" type="image/svg+xml">
