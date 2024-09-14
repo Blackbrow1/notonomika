@@ -1,7 +1,7 @@
 <?php
 require('./config.php');
 
-$title = 'Курсы фортепиано и флейты в Санкт-Петербурге | Нотология';
+$title = 'Курсы фортепиано и флейты в Санкт-Петербурге | Нотономика';
 $keywords = 'Уроки фортепиано, уроки флейты, преподаватель фортепиано, уроки сольфеджио, преподаватель флейты';
 $description = 'Научим играть профессионально или для души. Подготовим к выступлению или к поступлению в музыкальныю школу. Обучение за 3 месяца. Пробный урок бесплатный!';
 $url = 'https://notologia.ru';
@@ -201,17 +201,47 @@ include ROOT . 'parts/header.php';
       <div class="swiper video__swiper">
         <ul class="swiper-wrapper video__list">
           <li class="swiper-slide video__item">
-            <img class="video__img" src="./img/faq/faq-img-tablet@1x.jpg" alt="Видео ученика">
+            <picture>
+              <source width="380" height="380" type="image/webp" media="(min-width: 768px)"
+                srcset="./img/video/video-img-student-1-desktop@1x.webp 1x, ./img/video/video-img-student-1-desktop@2x.webp 2x">
+              <source width="230" height="230" type="image/webp"
+                srcset="./img/video/video-img-student-1-mobile@1x.webp 1x, ./img/video/video-img-student-1-mobile@2x.webp 2x">
+              <source width="380" height="380" type="image/jpeg" media="(min-width: 768px)"
+                srcset="./img/video/video-img-student-1-desktop@1x.jpg 1x, ./img/video/video-img-student-1-desktop@2x.jpg 2x">
+              <img class="video__img" src="./img/video/video-img-student-1-mobile@1x.jpg"
+                srcset="./img/video/video-img-student-1-mobile@2x.jpg 2x" width="230" height="230" alt="Видео ученика">
+            </picture>
+
             <img class="video__img-play" src="./img/icons/play-mobile.svg" alt="Иконка запуска видео">
           </li>
 
           <li class="swiper-slide video__item">
-            <img class="video__img" src="./img/about-lessons/about-lessons-tablet@1x.jpg" alt="Видео ученика">
+            <picture>
+              <source width="380" height="380" type="image/webp" media="(min-width: 768px)"
+                srcset="./img/video/video-img-student-2-desktop@1x.webp 1x, ./img/video/video-img-student-2-desktop@2x.webp 2x">
+              <source width="230" height="230" type="image/webp"
+                srcset="./img/video/video-img-student-2-mobile@1x.webp 1x, ./img/video/video-img-student-2-mobile@2x.webp 2x">
+              <source width="380" height="380" type="image/jpeg" media="(min-width: 768px)"
+                srcset="./img/video/video-img-student-2-desktop@1x.jpg 1x, ./img/video/video-img-student-2-desktop@2x.jpg 2x">
+              <img class="video__img" src="./img/video/video-img-student-2-mobile@1x.jpg"
+                srcset="./img/video/video-img-student-2-mobile@2x.jpg 2x" width="230" height="230" alt="Видео ученика">
+            </picture>
+
             <img class="video__img-play" src="./img/icons/play-mobile.svg" alt="Иконка запуска видео">
           </li>
 
           <li class="swiper-slide video__item">
-            <img class="video__img" src="./img/faq/faq-img-tablet@1x.jpg" alt="Видео ученика">
+            <picture>
+              <source width="380" height="380" type="image/webp" media="(min-width: 768px)"
+                srcset="./img/video/video-img-student-3-desktop@1x.webp 1x, ./img/video/video-img-student-3-desktop@2x.webp 2x">
+              <source width="230" height="230" type="image/webp"
+                srcset="./img/video/video-img-student-3-mobile@1x.webp 1x, ./img/video/video-img-student-3-mobile@2x.webp 2x">
+              <source width="380" height="380" type="image/jpeg" media="(min-width: 768px)"
+                srcset="./img/video/video-img-student-3-desktop@1x.jpg 1x, ./img/video/video-img-student-3-desktop@2x.jpg 2x">
+              <img class="video__img" src="./img/video/video-img-student-3-mobile@1x.jpg"
+                srcset="./img/video/video-img-student-3-mobile@2x.jpg 2x" width="230" height="230" alt="Видео ученика">
+            </picture>
+
             <img class="video__img-play" src="./img/icons/play-mobile.svg" alt="Иконка запуска видео">
           </li>
         </ul>

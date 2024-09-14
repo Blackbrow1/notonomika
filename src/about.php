@@ -1,10 +1,10 @@
 <?php
 require('./config.php');
 
-$title = 'О преподавателе фортепиано и флейты | Нотология';
+$title = 'О преподавателе фортепиано и флейты | Нотономика';
 $keywords = 'преподаватель фортепиано, преподаватель флейты, учитель фортепиано, учитель музыки, сольфеджио, теория музыки';
 $description = 'Узнать подробнее о преподавателе, опыте работы и достижениях. Вы можете посмотреть видео-примеры игры на музыкальном инструменте, исполняемым преподавателем. Переходите на страницу!';
-$url = 'https://notologia.ru/about.php';
+$url = 'https://notonomika.ru/about.php';
 
 include ROOT . 'parts/header.php';
 ?>
@@ -55,18 +55,51 @@ include ROOT . 'parts/header.php';
       <div class="swiper video__swiper">
         <ul class="swiper-wrapper video__list">
           <li class="swiper-slide video__item">
-            <img class="video__img" src="./img/faq/faq-img-tablet@1x.jpg" alt="">
-            <img class="video__img-play" src="./img/icons/play-mobile.svg" alt="">
+            <picture>
+              <source width="380" height="380" type="image/webp" media="(min-width: 768px)"
+                srcset="./img/video/video-img-teacher-1-desktop@1x.webp 1x, ./img/video/video-img-teacher-1-desktop@2x.webp 2x">
+              <source width="230" height="230" type="image/webp"
+                srcset="./img/video/video-img-teacher-1-mobile@1x.webp 1x, ./img/video/video-img-teacher-1-mobile@2x.webp 2x">
+              <source width="380" height="380" type="image/jpeg" media="(min-width: 768px)"
+                srcset="./img/video/video-img-teacher-1-desktop@1x.jpg 1x, ./img/video/video-img-teacher-1-desktop@2x.jpg 2x">
+              <img class="video__img" src="./img/video/video-img-teacher-1-mobile@1x.jpg"
+                srcset="./img/video/video-img-teacher-1-mobile@2x.jpg 2x" width="230" height="230"
+                alt="Видео преподавателя">
+            </picture>
+
+            <img class="video__img-play" src="./img/icons/play-mobile.svg" alt="Иконка запуска видео">
           </li>
 
           <li class="swiper-slide video__item">
-            <img class="video__img" src="./img/about-lessons/about-lessons-tablet@1x.jpg" alt="">
-            <img class="video__img-play" src="./img/icons/play-mobile.svg" alt="">
+            <picture>
+              <source width="380" height="380" type="image/webp" media="(min-width: 768px)"
+                srcset="./img/video/video-img-teacher-2-desktop@1x.webp 1x, ./img/video/video-img-teacher-2-desktop@2x.webp 2x">
+              <source width="230" height="230" type="image/webp"
+                srcset="./img/video/video-img-teacher-2-mobile@1x.webp 1x, ./img/video/video-img-teacher-2-mobile@2x.webp 2x">
+              <source width="380" height="380" type="image/jpeg" media="(min-width: 768px)"
+                srcset="./img/video/video-img-teacher-2-desktop@1x.jpg 1x, ./img/video/video-img-teacher-2-desktop@2x.jpg 2x">
+              <img class="video__img" src="./img/video/video-img-teacher-2-mobile@1x.jpg"
+                srcset="./img/video/video-img-teacher-2-mobile@2x.jpg 2x" width="230" height="230"
+                alt="Видео преподавателя">
+            </picture>
+
+            <img class="video__img-play" src="./img/icons/play-mobile.svg" alt="Иконка запуска видео">
           </li>
 
           <li class="swiper-slide video__item">
-            <img class="video__img" src="./img/faq/faq-img-tablet@1x.jpg" alt="">
-            <img class="video__img-play" src="./img/icons/play-mobile.svg" alt="">
+            <picture>
+              <source width="380" height="380" type="image/webp" media="(min-width: 768px)"
+                srcset="./img/video/video-img-teacher-3-desktop@1x.webp 1x, ./img/video/video-img-teacher-3-desktop@2x.webp 2x">
+              <source width="230" height="230" type="image/webp"
+                srcset="./img/video/video-img-teacher-3-mobile@1x.webp 1x, ./img/video/video-img-teacher-3-mobile@2x.webp 2x">
+              <source width="380" height="380" type="image/jpeg" media="(min-width: 768px)"
+                srcset="./img/video/video-img-teacher-3-desktop@1x.jpg 1x, ./img/video/video-img-teacher-3-desktop@2x.jpg 2x">
+              <img class="video__img" src="./img/video/video-img-teacher-3-mobile@1x.jpg"
+                srcset="./img/video/video-img-teacher-3-mobile@2x.jpg 2x" width="230" height="230"
+                alt="Видео преподавателя">
+            </picture>
+
+            <img class="video__img-play" src="./img/icons/play-mobile.svg" alt="Иконка запуска видео">
           </li>
         </ul>
       </div>

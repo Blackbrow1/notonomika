@@ -1,10 +1,10 @@
 <?php
 require('./config.php');
 
-$title = 'Страница Спасибо. Благодарим вас за заявку | Нотология';
+$title = 'Страница Спасибо. Благодарим вас за заявку | Нотономика';
 $keywords = ' ';
 $description = ' ';
-$url = 'https://notologia.ru';
+$url = 'https://notonomika.ru';
 
 include ROOT . 'parts/header.php';
 ?>

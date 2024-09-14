@@ -110,14 +110,11 @@
   width: 274px;
   height: 49px;
   padding-left: 22px;
+  font-size: 13px;
   font-weight: 700;
   font-family: $font-first;
   background-image: url("../img/icons/form-label-mobile.svg");
   background-repeat: no-repeat;
-
-  p {
-    font-size: 13px;
-  }
 }
 
 .main-form__policy-link {

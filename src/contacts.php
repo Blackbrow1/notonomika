@@ -1,10 +1,10 @@
 <?php
 require('./config.php');
 
-$title = 'Где мы находимся или как нас найти | Нотология';
+$title = 'Где мы находимся или как нас найти | Нотономика';
 $keywords = 'адрес музыкальной школы, обучение музыке рядом';
 $description = 'Мы находимся на проспекте Тореза, 78. Это в 10 минутах пешком от станции метро Удельная. Приходите на пробный урок!';
-$url = 'https://notologia.ru/contacts.php';
+$url = 'https://notonomika.ru/contacts.php';
 
 include ROOT . 'parts/header.php';
 ?>
@@ -25,17 +25,17 @@ include ROOT . 'parts/header.php';
             <div class="swiper-slide contacts__slide">
               <picture>
                 <source width="380" height="380" type="image/webp" media="(min-width: 1240px)"
-                  srcset="./img/contacts-slider/contacts-slider-desktop@1x.webp 1x, ./img/contacts-slider/contacts-slider-desktop@2x.webp 2x">
+                  srcset="./img/video/video-img-1-desktop@1x.webp 1x, ./img/video/video-img-1-desktop@2x.webp 2x">
                 <source width="541" height="354" type="image/webp" media="(min-width: 768px)"
-                  srcset="./img/contacts-slider/contacts-slider-tablet@1x.webp 1x, ./img/contacts-slider/contacts-slider-tablet@2x.webp 2x">
+                  srcset="./img/video/video-img-1-tablet@1x.webp 1x, ./img/video/video-img-1-tablet@2x.webp 2x">
                 <source width="300" height="300" type="image/webp"
-                  srcset="./img/contacts-slider/contacts-slider-mobile@1x.webp 1x, ./img/contacts-slider/contacts-slider-mobile@2x.webp 2x">
+                  srcset="./img/video/video-img-1-mobile@1x.webp 1x, ./img/video/video-img-1-mobile@2x.webp 2x">
                 <source width="380" height="380" type="image/jpeg" media="(min-width: 1240px)"
-                  srcset="./img/contacts-slider/contacts-slider-desktop@1x.jpg 1x, ./img/contacts-slider/contacts-slider-desktop@2x.jpg 2x">
+                  srcset="./img/video/video-img-1-desktop@1x.jpg 1x, ./img/video/video-img-1-desktop@2x.jpg 2x">
                 <source width="541" height="354" type="image/jpeg" media="(min-width: 768px)"
-                  srcset="./img/contacts-slider/contacts-slider-tablet@1x.jpg 1x, ./img/contacts-slider/contacts-slider-tablet@2x.jpg 2x">
-                <img class="contacts__slider-img" src="./img/contacts-slider/contacts-slider-mobile@1x.jpg"
-                  srcset="./img/contacts-slider/contacts-slider-mobile@2x.jpg 2x" width="300" height="300"
+                  srcset="./img/video/video-img-1-tablet@1x.jpg 1x, ./img/video/video-img-1-tablet@2x.jpg 2x">
+                <img class="contacts__slider-img" src="./img/video/video-img-1-mobile@1x.jpg"
+                  srcset="./img/video/video-img-1-mobile@2x.jpg 2x" width="300" height="300"
                   alt="Помещение для занятий">
               </picture>
             </div>
@@ -43,35 +43,35 @@ include ROOT . 'parts/header.php';
             <div class="swiper-slide contacts__slide">
               <picture>
                 <source width="380" height="380" type="image/webp" media="(min-width: 1240px)"
-                  srcset="./img/about/teacher-desktop@1x.webp 1x, ./img/about/teacher-desktop@2x.webp 2x">
+                  srcset="./img/video/video-img-2-desktop@1x.webp 1x, ./img/video/video-img-2-desktop@2x.webp 2x">
                 <source width="541" height="354" type="image/webp" media="(min-width: 768px)"
-                  srcset="./img/about/teacher-tablet@1x.webp 1x, ./img/about/teacher-tablet@2x.webp 2x">
+                  srcset="./img/video/video-img-2-tablet@1x.webp 1x, ./img/video/video-img-2-tablet@2x.webp 2x">
                 <source width="300" height="300" type="image/webp"
-                  srcset="./img/about/teacher-mobile@1x.webp 1x, ./img/about/teacher-mobile@2x.webp 2x">
+                  srcset="./img/video/video-img-2-mobile@1x.webp 1x, ./img/video/video-img-2-mobile@2x.webp 2x">
                 <source width="380" height="380" type="image/jpeg" media="(min-width: 1240px)"
-                  srcset="./img/about/teacher-desktop@1x.jpg 1x, ./img/about/teacher-desktop@2x.jpg 2x">
+                  srcset="./img/video/video-img-2-desktop@1x.jpg 1x, ./img/video/video-img-2-desktop@2x.jpg 2x">
                 <source width="541" height="354" type="image/jpeg" media="(min-width: g768px)"
-                  srcset="./img/about/teacher-tablet@1x.jpg 1x, ./img/about/teacher-tablet@2x.jpg 2x">
-                <img class="contacts__slider-img" src="./img/about/teacher-mobile@1x.jp"
-                  srcset="./img/about/teacher-mobile@2x.jpg 2x" width="300" height="300" alt="Помещение для занятий">
+                  srcset="./img/video/video-img-2-tablet@1x.jpg 1x, ./img/video/video-img-2-tablet@2x.jpg 2x">
+                <img class="contacts__slider-img" src="./img/video/video-img-2-mobile@1x.jp"
+                  srcset="./img/video/video-img-2-mobile@2x.jpg 2x" width="300" height="300"
+                  alt="Помещение для занятий">
               </picture>
             </div>
 
             <div class="swiper-slide contacts__slide">
               <picture>
                 <source width="380" height="380" type="image/webp" media="(min-width: 1240px)"
-                  srcset="./img/directions/directions-notes-desktop-2@1x.webp 1x, ./img/directions/directions-notes-desktop-2@2x.webp 2x">
+                  srcset="./img/video/video-img-3-desktop@1x.webp 1x, ./img/video/video-img-3-desktop@2x.webp 2x">
                 <source width="541" height="354" type="image/webp" media="(min-width: 768px)"
-                  srcset="./img/directions/directions-notes-tablet-2@1x.webp 1x, ./img/directions/directions-notes-tablet-2@2x.webp 2x">
+                  srcset="./img/video/video-img-3-tablet@1x.webp 1x, ./img/video/video-img-3-tablet@2x.webp 2x">
                 <source width="300" height="300" type="image/webp"
-                  srcset="./img/directions/directions-notes-mobile@1x.webp 1x, ./img/directions/directions-notes-mobile@2x.webp 2x">
+                  srcset="./img/video/video-img-3-mobile@1x.webp 1x, ./img/video/video-img-3-mobile@2x.webp 2x">
                 <source width="380" height="380" type="image/jpeg" media="(min-width: 1240px)"
-                  srcset="./img/directions/directions-notes-desktop-2@1x.jpg 1x, ./img/directions/directions-notes-desktop-2@2x.jpg 2x">
+                  srcset="./img/video/video-img-3-desktop@1x.jpg 1x, ./img/video/video-img-3-desktop@2x.jpg 2x">
                 <source width="541" height="354" type="image/jpeg" media="(min-width: 768px)"
-                  srcset="./img/directions/directions-notes-tablet-2@1x.jpg 1x, ./img/directions/directions-notes-tablet-2@2x.jpg 2x">
-                <img class="contacts__slider-img" src="./img/directions/directions-notes-mobile@1x.jpg"
-                  srcset="./img/directions/directions-notes-mobile@2x.jpg 2x" width="300" height="300"
-                  alt="Ноты на фортепиано">
+                  srcset="./img/video/video-img-3-tablet@1x.jpg 1x, ./img/video/video-img-3-tablet@2x.jpg 2x">
+                <img class="contacts__slider-img" src="./img/video/video-img-3-mobile@1x.jpg"
+                  srcset="./img/video/video-img-3-mobile@2x.jpg 2x" width="300" height="300" alt="Ноты на фортепиано">
               </picture>
             </div>
           </div>

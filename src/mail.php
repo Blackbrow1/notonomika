@@ -5,9 +5,9 @@ $email_from = 'info@notonomika.ru';
 $name_from = 'Онлайн менеджер';
 $subject = 'Заявка с сайта';
 
-$message = "<strong>Вам пришла новая заявка с сайта</strong>: <br><br>\n" .
-          "<strong>Имя: </strong>" . strip_tags(trim($_POST['name'])) . "<br>\n" .
-          "<strong>Номер телефона: </strong>" . strip_tags(trim($_POST['tel']));
+$message = "Вам пришла новая заявка с сайта</strong>: \n" .
+          "Имя: " . strip_tags(trim($_POST['name'])) . "\n" .
+          "Номер телефона: " . strip_tags(trim($_POST['tel']));
 
 $subject = "=?utf-8?B?" . base64_encode($subject) . "?=";
 

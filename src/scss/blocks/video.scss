@@ -36,6 +36,12 @@
   width: 230px;
   height: 230px;
   border-radius: 100%;
+  filter: saturate(0.5);
+  transition: all 0.8s ease;
+
+  &:hover {
+    filter: saturate(1);
+  }
 }
 
 .video__img {
@@ -43,6 +49,7 @@
   height: 230px;
   border-radius: 100%;
   object-fit: cover;
+
 
   &:hover {
     cursor: pointer;
@@ -56,7 +63,6 @@
   transform: translate(-50%, -50%);
   width: 62px;
   height: 62px;
-  opacity: 0.8;
   z-index: 10;
   cursor: pointer;
 }

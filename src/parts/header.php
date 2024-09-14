@@ -11,7 +11,7 @@
   <meta property="og:description" content="<?php echo $description; ?>">
   <meta property="og:url" content="<?php echo $url; ?>">
   <meta property="og:image" content="https://notonomika.ru/img/preview.jpg">
-  <meta property="og:site_name" content="Музыкальная школа Нотология">
+  <meta property="og:site_name" content="Музыкальная школа Нотономика">
   <meta property="og:locale" content="ru_RU">
   <title><?php echo $title; ?></title>
   <link rel="icon" href="favicon.ico">
