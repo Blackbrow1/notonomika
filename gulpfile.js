@@ -39,6 +39,8 @@ const PATHS_TO_STATIC = [
   `${PATH_TO_SRC}images/**/*`,
   `${PATH_TO_SRC}policy.pdf`,
   `${PATH_TO_SRC}.htaccess`,
+  `${PATH_TO_SRC}sitemap.xml`,
+  `${PATH_TO_SRC}robots.txt`,
   `${PATH_TO_SRC}config.php`,
   `${PATH_TO_SRC}mail.php`,
   `${PATH_TO_SRC}js/swiper-bundle.min.js`,
