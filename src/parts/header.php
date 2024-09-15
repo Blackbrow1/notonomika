@@ -77,7 +77,6 @@
   </noscript>
   <!-- /Yandex.Metrika counter -->
 
-
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-C53RMZ6K9D"></script>
   <script>
@@ -122,10 +121,9 @@
           <span class="header__street">пр. Тореза, 78</span>
         </div>
 
-        <button class="header__button header__button--opened">
+        <b class="header__button header__button--opened">
           <span class="visually-hidden">Меню</span>
-        </b
-utton>
+        </b utton>
       </div>
     </div>
   </header>
