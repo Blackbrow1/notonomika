@@ -106,6 +106,7 @@
   width: 40px;
   height: 40px;
   z-index: 6;
+  cursor: pointer;
 
   &--opened {
     &::before,
@@ -133,6 +134,7 @@
     &::after {
       content: "";
       position: absolute;
+      top: 18px;
       right: 0;
       width: 40px;
       height: 2px;
