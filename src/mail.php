@@ -7,7 +7,7 @@ $email_from = 'info@notonomika.ru';
 $name_from = 'Онлайн менеджер';
 $subject = 'Заявка с сайта';
 
-$message = "Вам пришла новая заявка с сайта: \n" .
+$message = "Вам пришла новая заявка с сайта notonomika.ru: \n" .
           "Имя: " . strip_tags(trim($_POST['name'])) . "\n" .
           "Номер телефона: " . strip_tags(trim($_POST['tel']));
 
