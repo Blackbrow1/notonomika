@@ -76,6 +76,21 @@
     <div><img src="https://mc.yandex.ru/watch/98340124" style="position:absolute; left:-9999px;" alt="" /></div>
   </noscript>
   <!-- /Yandex.Metrika counter -->
+
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C53RMZ6K9D"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'G-C53RMZ6K9D');
+  </script>
+
 </head>
 
 <body class="page__body">
@@ -109,7 +124,8 @@
 
         <button class="header__button header__button--opened">
           <span class="visually-hidden">Меню</span>
-        </button>
+        </b
+utton>
       </div>
     </div>
   </header>
