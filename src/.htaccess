@@ -1,12 +1,6 @@
 RewriteEngine On
 RewriteBase /
 
-RewriteCond %{HTTP_HOST} ^www.site.ru$ [NC]
-RewriteRule ^(.*)$ http://notonomika.ru/$1 [R=301,L]
-
-RewriteCond %{HTTP:X-HTTPS} !1
-RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
-
 RewriteRule ^index.php$ / [QSA,R]
 
 RewriteCond %{REQUEST_FILENAME}.php -f
