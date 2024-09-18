@@ -65,8 +65,8 @@
     <button class="popup__button"><span class="visually-hidden">Закрыть видео</span></button>
   </div>
 
-  <script defer src="./js/swiper-bundle.min.js"></script>
-  <script defer src="./js/script.js"></script>
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/script.js"></script>
   </body>
 
 
