@@ -90,6 +90,7 @@
   gtag('config', 'G-C53RMZ6K9D');
   </script>
 
+  <script src="//code.jivo.ru/widget/zuwn4iySAa" async></script>
 </head>
 
 <body class="page__body">
