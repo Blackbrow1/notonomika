@@ -146,7 +146,7 @@ include ROOT . 'parts/header.php';
           <source width="354" height="505" type="image/jpeg" media="(min-width: 768px)"
             srcset="./img/benefits/benefits-1-tablet@1x.jpg 1x, ./img/benefits/benefits-1-tablet@2x.jpg 2x">
           <img class="benefits__img" src="./img/benefits/benefits-1-mobile@1x.jpg"
-            srcset="./img/benefits/benefits-1-mobile@2x.jpg 2x" width="300" height="380"
+            srcset="./img/benefits/benefits-1-mobile@2x.jpg 2x" width="300" height="380" loading="lazy"
             alt="Девушка с флейтой на концерте">
         </picture>
       </div>
@@ -187,7 +187,7 @@ include ROOT . 'parts/header.php';
           <source width="354" height="505" type="image/jpeg" media="(min-width: 768px)"
             srcset="./img/benefits/benefits-2-tablet@1x.jpg 1x, ./img/benefits/benefits-2-tablet@2x.jpg 2x">
           <img class="benefits__img" src="./img/benefits/benefits-2-mobile@1x.jpg"
-            srcset="./img/benefits/benefits-2-mobile@2x.jpg 2x" width="300" height="380"
+            srcset="./img/benefits/benefits-2-mobile@2x.jpg 2x" width="300" height="380" loading="lazy"
             alt="Девушка с флейтой на концерте">
         </picture>
       </div>
@@ -209,7 +209,8 @@ include ROOT . 'parts/header.php';
               <source width="380" height="380" type="image/jpeg" media="(min-width: 768px)"
                 srcset="./img/video/video-img-student-1-desktop@1x.jpg 1x, ./img/video/video-img-student-1-desktop@2x.jpg 2x">
               <img class="video__img" src="./img/video/video-img-student-1-mobile@1x.jpg"
-                srcset="./img/video/video-img-student-1-mobile@2x.jpg 2x" width="230" height="230" alt="Видео ученика">
+                srcset="./img/video/video-img-student-1-mobile@2x.jpg 2x" width="230" height="230" loading="lazy"
+                alt="Видео ученика">
             </picture>
 
             <img class="video__img-play" src="./img/icons/play-mobile.svg" alt="Иконка запуска видео">
@@ -224,7 +225,8 @@ include ROOT . 'parts/header.php';
               <source width="380" height="380" type="image/jpeg" media="(min-width: 768px)"
                 srcset="./img/video/video-img-student-2-desktop@1x.jpg 1x, ./img/video/video-img-student-2-desktop@2x.jpg 2x">
               <img class="video__img" src="./img/video/video-img-student-2-mobile@1x.jpg"
-                srcset="./img/video/video-img-student-2-mobile@2x.jpg 2x" width="230" height="230" alt="Видео ученика">
+                srcset="./img/video/video-img-student-2-mobile@2x.jpg 2x" width="230" height="230" loading="lazy"
+                alt="Видео ученика">
             </picture>
 
             <img class="video__img-play" src="./img/icons/play-mobile.svg" alt="Иконка запуска видео">
@@ -239,7 +241,8 @@ include ROOT . 'parts/header.php';
               <source width="380" height="380" type="image/jpeg" media="(min-width: 768px)"
                 srcset="./img/video/video-img-student-3-desktop@1x.jpg 1x, ./img/video/video-img-student-3-desktop@2x.jpg 2x">
               <img class="video__img" src="./img/video/video-img-student-3-mobile@1x.jpg"
-                srcset="./img/video/video-img-student-3-mobile@2x.jpg 2x" width="230" height="230" alt="Видео ученика">
+                srcset="./img/video/video-img-student-3-mobile@2x.jpg 2x" width="230" height="230" loading="lazy"
+                alt="Видео ученика">
             </picture>
 
             <img class="video__img-play" src="./img/icons/play-mobile.svg" alt="Иконка запуска видео">
@@ -268,7 +271,8 @@ include ROOT . 'parts/header.php';
         <source width="354" height="417" type="image/jpeg" media="(min-width: 768px)"
           srcset="./img/guarantees/guarantees-tablet@1x.jpg 1x, ./img/guarantees/guarantees-tablet@2x.jpg 2x">
         <img class="guarantees__img" src="./img/guarantees/guarantees-mobile@1x.jpg"
-          srcset="./img/guarantees/guarantees-mobile@2x.jpg 2x" width="300" height="145" alt="Пианино с нотами">
+          srcset="./img/guarantees/guarantees-mobile@2x.jpg 2x" width="300" height="145" loading="lazy"
+          alt="Пианино с нотами">
       </picture>
 
       <p class="guarantees__description-2">При должном и систематическом выполнении домашних заданий могу гарантировать
