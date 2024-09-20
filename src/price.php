@@ -83,7 +83,7 @@ include ROOT . 'parts/header.php';
             <p class="card__description">2 раза в неделю специальность + 2 раза в неделю сольфеджио или теория музыки
             </p>
 
-            <p class="card__price">22 200</p>
+            <p class="card__price">23 200</p>
 
             <a href="#main-form" class="card__button button scroll-to">Записаться</a>
           </li>
