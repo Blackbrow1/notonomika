@@ -51,7 +51,7 @@
         <a href="policy.pdf" class="footer__policy-link" download>Политика конфиденциальности</a>
       </div>
 
-      <p class="footer__site-dev"><span>Сайт разработан в</span> <a href="https://vk.com/blackbrow"
+      <p class="footer__site-dev"><span>Сайт разработан в</span> <a href="https://vk.com/prasaim"
           target="_blank">Prasaim</a></p>
     </div>
   </footer>
