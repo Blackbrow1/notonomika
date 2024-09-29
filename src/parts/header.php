@@ -100,7 +100,7 @@
         <picture>
           <source width="136" height="30" media="(min-width: 768px)" srcset="img/icons/logo-desktop.svg"
             type="image/svg+xml">
-          <img class="header__logo" src="img/icons/logo-mobile.svg" width="107" height="25" alt="Логотип Нотологии">
+          <img class="header__logo" src="img/icons/logo-mobile.svg" width="107" height="25" alt="Логотип Нотономики">
         </picture>
       </a>
 

@@ -5,7 +5,7 @@
           <picture>
             <source width="136" height="30" media="(min-width: 768px)" srcset="img/icons/logo-footer-desktop.svg"
               type="image/svg+xml">
-            <img src="img/icons/logo-footer-mobile.svg" width="120" height="25" alt="Логотип Нотологии">
+            <img src="img/icons/logo-footer-mobile.svg" width="120" height="25" alt="Логотип Нотономики">
           </picture>
         </a>
       </div>
