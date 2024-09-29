@@ -122,9 +122,9 @@
           <span class="header__street">пр. Тореза, 78</span>
         </div>
 
-        <b class="header__button header__button--opened">
+        <button class="header__button header__button--opened">
           <span class="visually-hidden">Меню</span>
-        </b utton>
+        </button>
       </div>
     </div>
   </header>
