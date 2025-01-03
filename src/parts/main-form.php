@@ -1,6 +1,6 @@
 <section class="main-form" id="main-form">
   <div class="main-form__wrap">
-    <form action="mail.php" method="post">
+    <form action="mail.php" method="post" onsubmit="ym(98340124,'reachGoal','send_form'); return true;">
       <fieldset class="main-form__fields">
         <h2 class="main-form__title h2">Записаться на пробный урок</h2>
         <p class="main-form__description">На пробном уроке определим ваш уровень способностей игры на музыкальном
